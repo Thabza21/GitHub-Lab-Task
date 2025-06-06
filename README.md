@@ -2,10 +2,6 @@
 
 <h3 align="center" style="color:#00FF00;">💻 Aspiring Software Engineer | 👨‍🎓 BComp Student @ Belgium Campus | 🌐 Tech Enthusiast</h3>
 
-<p align="center">
-  <img src="https://github.com/Thabza21/GitHub-Lab-Task/blob/main/Gwe-Tshirt.jpg" alt="Thabani in GambleWithExperience T-shirt" width="200" style="border-radius: 50%; border: 2px solid #00FF00;">
-</p>
----
 
 I'm a passionate and ambitious computing student currently pursuing my **Bachelor of Computing in Software Engineering** at **Belgium Campus** (2024–2027). Based in **Johannesburg, South Africa**, I’m constantly building and exploring new technologies — especially in:
 
@@ -36,6 +32,9 @@ I’m the proud founder of [**GambleWithExperience.com**](https://www.gamblewith
 - Reached over **20,000 users worldwide** 🌐  
 - Built a solid online presence with **3.9k+ followers** on [**X (Twitter)**](https://x.com/gamblewithXP)  
 - Grown into a personal brand that I wear (literally) with pride 🧢
+-  <p align="center">
+  <img src="https://github.com/Thabza21/GitHub-Lab-Task/blob/main/Gwe-Tshirt.jpg" alt="Thabani in GambleWithExperience T-shirt" width="200" style="border-radius: 50%; border: 2px solid #00FF00;">
+</p>
 
 ---
 
