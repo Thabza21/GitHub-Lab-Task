@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EEGGC631GJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-EEGGC631GJ');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Test your soccer knowledge with our fun and challenging soccer quiz! Answer exciting football trivia questions and see how well you know the game.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Quiz</title>
+</head>
+
+<body class="d-flex justify-content-center align-items-center min-vh-100 bg-black">
+  <div id="loading-screen" class="loading-screen">
+    <div class="spinner"></div>
+    <p class="loading-text">Loading...</p>
+  </div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./css/logoW.png" alt="Logo" height="45" width="200" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://gamblewithexperience.com">Premier League</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://gamblewithexperience.com">Laliga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://gamblewithexperience.com">SerieA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://gamblewithexperience.com">Bundesliga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://gamblewithexperience.com">All In One</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://gamblewithexperience.com">Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://gamblewithexperience.com">Previous Winnings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://gamblewithexperience.com">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="px-4 py-5 my-5 text-center opening">
+      <img class="d-block mx-auto mb-5 logo" src="./css/logoW.png" alt="" width="250" height="100">
+      <h1 class="quiz"></h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-1">From the pitch to your brain—are you a soccer genius or just a fan? Test your knowledge on everything from legendary players to epic matches and see if you're the real MVP!</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 text-center start">Start Now!</div>
+    </div>
+    <div class="row justify-content-center difficulty-selection" style="display: none;">
+      <div class="col-3 text-center difficulty-btn" data-difficulty="easy">Easy</div>
+      <div class="col-3 text-center difficulty-btn" data-difficulty="moderate">Moderate</div>
+      <div class="col-3 text-center difficulty-btn" data-difficulty="advanced">Advanced</div>
+    </div>
+    <div class="timer mb-4" id="timer"></div>
+    <div class="col-lg-6 mx-auto">
+      <p class="question mb-1" id="one">Which league has the only team to complete a treble (domestic league, domestic cup, and UEFA Champions League) more than once?</p>
+      <p class="question mb-1" id="two">Which league is home to the only team to have won six trophies in a single calendar year (a sextuple)?</p>
+      <p class="question mb-1" id="three">Which league's teams have the most UEFA Europa League titles combined?</p>
+      <p class="question mb-1" id="four">Which league has the only team that has never been relegated since its formation?</p>
+      <p class="question mb-1" id="five">Which league's teams have scored the most goals in UEFA Champions League history?</p>
+      <p class="question mb-1" id="six">Which league’s team holds the record for the longest unbeaten home run in domestic league history?</p>
+      <p class="question mb-1" id="seven">Which league is home to the only team to have won the UEFA Champions League three times in a row since the competition was rebranded?</p>
+      <p class="question mb-1" id="eight">Which league’s team holds the record for the fastest-ever goal scored in a domestic league match?</p>
+      <p class="question mb-1" id="nine">Which league was the first to introduce VAR (Video Assistant Referee) in a full season of its domestic competition?</p>
+      <p class="question mb-1" id="ten">Which league’s teams have won the most UEFA Champions League titles combined?</p>
+    </div>
+    <div class="row justify-content-center options">
+      <div class="col-3 text-center click" id="a">Premier League</div>
+      <div class="col-3 text-center click" id="b">Bundesliga</div>
+      <div class="col-3 text-center click" id="c">Laliga</div>
+      <div class="col-3 text-center click" id="d">SerieA</div>
+    </div>
+    <div class="col-md-3 mb-3 text-center">
+      <div class="col results">
+        <div class="mb-4 rounded-3 shadow-sm">
+          <table class="table record mt-5" data-bs-theme="dark">
+            <tr>
+              <th><h2 class="my-0 fw-normal score text-center">Score: </h2></th>
+            </tr>
+          </table>
+          <button type="button" class="w-100 btn btn-lg retry">Try again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const navbarItems = document.querySelectorAll('.nav-item');
+    navbarItems.forEach((item) => {
+      const link = item.querySelector('a');
+      const url = new URL(link.href);
+      const currentPage = url.pathname;
+      if (currentPage === window.location.pathname) {
+        item.classList.add('active');
+      } else {
+        item.classList.remove('active');
+      }
+    });
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./javascript.js"></script>
+</body>
+</html>
