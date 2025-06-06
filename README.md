@@ -3,9 +3,8 @@
 <h3 align="center" style="color:#00FF00;">💻 Aspiring Software Engineer | 👨‍🎓 BComp Student @ Belgium Campus | 🌐 Tech Enthusiast</h3>
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1MtdU81a_l8dpIMjC2FWujiukvlOFloCv/view?usp=sharing" alt="Thabani in GambleWithExperience T-shirt" width="200" style="border-radius: 50%; border: 2px solid #00FF00;">
+  <img src="" alt="Thabani in GambleWithExperience T-shirt" width="200" style="border-radius: 50%; border: 2px solid #00FF00;">
 </p>
-
 ---
 
 I'm a passionate and ambitious computing student currently pursuing my **Bachelor of Computing in Software Engineering** at **Belgium Campus** (2024–2027). Based in **Johannesburg, South Africa**, I’m constantly building and exploring new technologies — especially in:
