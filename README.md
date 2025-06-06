@@ -3,7 +3,7 @@
 <h3 align="center" style="color:#00FF00;">💻 Aspiring Software Engineer | 👨‍🎓 BComp Student @ Belgium Campus | 🌐 Tech Enthusiast</h3>
 
 <p align="center">
-  <img src="" alt="Thabani in GambleWithExperience T-shirt" width="200" style="border-radius: 50%; border: 2px solid #00FF00;">
+  <img src="https://github.com/Thabza21/GitHub-Lab-Task/blob/main/Gwe-Tshirt.jpg" alt="Thabani in GambleWithExperience T-shirt" width="200" style="border-radius: 50%; border: 2px solid #00FF00;">
 </p>
 ---
 
